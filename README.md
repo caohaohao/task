@@ -21,5 +21,5 @@ npm run lint
 ```
 
 ### Customize configuration
-### chh git使用
+### chh gitdd使用
 See [Configuration Reference](https://cli.vuejs.org/config/).
