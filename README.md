@@ -17,9 +17,9 @@ npm run build
 
 ### Lints and fixes files
 ```
-npm run lint
+npm run lintt
 ```
 
 ### Customize configuration
-### chh git使用
+### chh gitt使用
 See [Configuration Reference](https://cli.vuejs.org/config/).
