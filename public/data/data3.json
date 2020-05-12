@@ -1,0 +1,964 @@
+{
+  "toolBar": {
+      "totalResult": 484,
+      "taskType": [
+          {
+              "options": [
+                  {
+                      "label": "一局自己任务",
+                      "value": "408327"
+                  }
+              ],
+              "label": "一局自己任务"
+          },
+          {
+              "options": [
+                  {
+                      "label": "二局自己任务",
+                      "value": "408397"
+                  }
+              ],
+              "label": "二局自己任务"
+          },
+          {
+              "options": [
+                  {
+                      "label": "日常任务",
+                      "value": "407976"
+                  }
+              ],
+              "label": "日常任务"
+          },
+          {
+              "options": [
+                  {
+                      "label": "年度工作计划",
+                      "value": "392941"
+                  },
+                  {
+                      "label": "专项任务",
+                      "value": "392950"
+                  }
+              ],
+              "label": "重点任务"
+          },
+          {
+              "options": [
+                  {
+                      "label": "上级下达",
+                      "value": "392972"
+                  },
+                  {
+                      "label": "领导指示",
+                      "value": "392974"
+                  },
+                  {
+                      "label": "一般性工作",
+                      "value": "392976"
+                  }
+              ],
+              "label": "临时任务"
+          }
+      ],
+      "maxZindex": 2,
+      "taskSource": [
+          {
+              "label": "军委",
+              "value": "392578"
+          },
+          {
+              "label": "联参",
+              "value": "392580"
+          },
+          {
+              "label": "上级业务局",
+              "value": "392582"
+          },
+          {
+              "label": "大队",
+              "value": "392584"
+          },
+          {
+              "label": "其他",
+              "value": "392586"
+          }
+      ]
+  },
+  "children": [
+      {
+          "sid": "405320",
+          "taskNo": "联第20050040",
+          "taskName": "1.3",
+          "outlineLevel": 1,
+          "taskTarget": "3号子任务",
+          "pEndTime": "2020-03-31",
+          "aStartTime": "2020-03-16",
+          "overPercent": 0,
+          "rwPropLevel": "",
+          "rwPropDegree": "",
+          "rwPropComplete": "执行中",
+          "rwPropImportance": "",
+          "rwPropPriority": "",
+          "rwPropDifficulty": "",
+          "status": "执行中",
+          "rwPropType": "重点任务",
+          "chubanLeader": "丁立群",
+          "mainAdviser": "占国栋",
+          "mainDept": "一局一处",
+          "assistPerson": "",
+          "assistDept": "",
+          "id": "40",
+          "outLineLevel": 1,
+          "intField1": "一局一处",
+          "actions": [
+              {
+                  "method": "guanzhu",
+                  "title": "关注",
+                  "switch": "1"
+              },
+              {
+                  "method": "quxiaoguanzhu",
+                  "title": "取消关注",
+                  "switch": "0"
+              },
+              {
+                  "method": "cuiban",
+                  "title": "催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "quxiaocuiban",
+                  "title": "取消催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "xiangqing",
+                  "title": "详情",
+                  "switch": "1"
+              }
+          ],
+          "tags": [
+              {
+                  "tag": "du",
+                  "switch": "off"
+              },
+              {
+                  "tag": "delay",
+                  "switch": "off"
+              },
+              {
+                  "tag": "end",
+                  "switch": "off"
+              },
+              {
+                  "tag": "du_over",
+                  "switch": "off"
+              },
+              {
+                  "tag": "new",
+                  "switch": "on"
+              }
+          ],
+          "children": [
+              {
+                  "sid": "406763",
+                  "taskNo": "联第20050040-1",
+                  "taskName": "123123",
+                  "outlineLevel": 2,
+                  "taskTarget": "无",
+                  "pEndTime": "2020-05-13",
+                  "aStartTime": "2020-05-06",
+                  "overPercent": 0,
+                  "rwPropLevel": "",
+                  "rwPropDegree": "特急",
+                  "rwPropComplete": "执行中",
+                  "rwPropImportance": "",
+                  "rwPropPriority": "",
+                  "rwPropDifficulty": "1",
+                  "status": "执行中",
+                  "rwPropType": "",
+                  "chubanLeader": "丁立群,钱颖",
+                  "mainAdviser": "占国栋",
+                  "mainDept": "一局一处",
+                  "assistPerson": "",
+                  "assistDept": "",
+                  "id": "40-1",
+                  "outLineLevel": 2,
+                  "intField1": "一局一处",
+                  "actions": [
+                      {
+                          "method": "guanzhu",
+                          "title": "关注",
+                          "switch": "1"
+                      },
+                      {
+                          "method": "quxiaoguanzhu",
+                          "title": "取消关注",
+                          "switch": "0"
+                      },
+                      {
+                          "method": "cuiban",
+                          "title": "催办",
+                          "switch": "0"
+                      },
+                      {
+                          "method": "quxiaocuiban",
+                          "title": "取消催办",
+                          "switch": "0"
+                      },
+                      {
+                          "method": "xiangqing",
+                          "title": "详情",
+                          "switch": "1"
+                      }
+                  ],
+                  "tags": [
+                      {
+                          "tag": "du",
+                          "switch": "off"
+                      },
+                      {
+                          "tag": "delay",
+                          "switch": "off"
+                      },
+                      {
+                          "tag": "end",
+                          "switch": "off"
+                      },
+                      {
+                          "tag": "du_over",
+                          "switch": "off"
+                      },
+                      {
+                          "tag": "new",
+                          "switch": "on"
+                      }
+                  ],
+                  "children": []
+              }
+          ]
+      },
+      {
+          "sid": "405323",
+          "taskNo": "联第20050041",
+          "taskName": "1.4",
+          "outlineLevel": 1,
+          "taskTarget": "4号子任务",
+          "pEndTime": "2020-03-31",
+          "aStartTime": "2020-03-16",
+          "overPercent": 0,
+          "rwPropLevel": "",
+          "rwPropDegree": "",
+          "rwPropComplete": "执行中",
+          "rwPropImportance": "",
+          "rwPropPriority": "",
+          "rwPropDifficulty": "",
+          "status": "执行中",
+          "rwPropType": "重点任务",
+          "chubanLeader": "丁立群",
+          "mainAdviser": "占国栋",
+          "mainDept": "一局一处",
+          "assistPerson": "",
+          "assistDept": "",
+          "id": "41",
+          "outLineLevel": 1,
+          "intField1": "一局一处",
+          "actions": [
+              {
+                  "method": "guanzhu",
+                  "title": "关注",
+                  "switch": "1"
+              },
+              {
+                  "method": "quxiaoguanzhu",
+                  "title": "取消关注",
+                  "switch": "0"
+              },
+              {
+                  "method": "cuiban",
+                  "title": "催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "quxiaocuiban",
+                  "title": "取消催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "xiangqing",
+                  "title": "详情",
+                  "switch": "1"
+              }
+          ],
+          "tags": [
+              {
+                  "tag": "du",
+                  "switch": "off"
+              },
+              {
+                  "tag": "delay",
+                  "switch": "off"
+              },
+              {
+                  "tag": "end",
+                  "switch": "off"
+              },
+              {
+                  "tag": "du_over",
+                  "switch": "off"
+              },
+              {
+                  "tag": "new",
+                  "switch": "on"
+              }
+          ],
+          "children": []
+      },
+      {
+          "sid": "405326",
+          "taskNo": "联第20050042",
+          "taskName": "1.5",
+          "outlineLevel": 1,
+          "taskTarget": "5号子任务",
+          "pEndTime": "2020-03-31",
+          "aStartTime": "2020-03-16",
+          "overPercent": 0,
+          "rwPropLevel": "",
+          "rwPropDegree": "",
+          "rwPropComplete": "执行中",
+          "rwPropImportance": "",
+          "rwPropPriority": "",
+          "rwPropDifficulty": "",
+          "status": "执行中",
+          "rwPropType": "重点任务",
+          "chubanLeader": "丁立群",
+          "mainAdviser": "占国栋",
+          "mainDept": "一局一处",
+          "assistPerson": "",
+          "assistDept": "",
+          "id": "42",
+          "outLineLevel": 1,
+          "intField1": "一局一处",
+          "actions": [
+              {
+                  "method": "guanzhu",
+                  "title": "关注",
+                  "switch": "1"
+              },
+              {
+                  "method": "quxiaoguanzhu",
+                  "title": "取消关注",
+                  "switch": "0"
+              },
+              {
+                  "method": "cuiban",
+                  "title": "催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "quxiaocuiban",
+                  "title": "取消催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "xiangqing",
+                  "title": "详情",
+                  "switch": "1"
+              }
+          ],
+          "tags": [
+              {
+                  "tag": "du",
+                  "switch": "off"
+              },
+              {
+                  "tag": "delay",
+                  "switch": "off"
+              },
+              {
+                  "tag": "end",
+                  "switch": "off"
+              },
+              {
+                  "tag": "du_over",
+                  "switch": "off"
+              },
+              {
+                  "tag": "new",
+                  "switch": "on"
+              }
+          ],
+          "children": []
+      },
+      {
+          "sid": "405329",
+          "taskNo": "联第20050043",
+          "taskName": "1.6",
+          "outlineLevel": 1,
+          "taskTarget": "6号子任务",
+          "pEndTime": "2020-03-31",
+          "aStartTime": "2020-03-16",
+          "overPercent": 0,
+          "rwPropLevel": "",
+          "rwPropDegree": "",
+          "rwPropComplete": "执行中",
+          "rwPropImportance": "",
+          "rwPropPriority": "",
+          "rwPropDifficulty": "",
+          "status": "执行中",
+          "rwPropType": "重点任务",
+          "chubanLeader": "丁立群",
+          "mainAdviser": "占国栋",
+          "mainDept": "一局一处",
+          "assistPerson": "",
+          "assistDept": "",
+          "id": "43",
+          "outLineLevel": 1,
+          "intField1": "一局一处",
+          "actions": [
+              {
+                  "method": "guanzhu",
+                  "title": "关注",
+                  "switch": "1"
+              },
+              {
+                  "method": "quxiaoguanzhu",
+                  "title": "取消关注",
+                  "switch": "0"
+              },
+              {
+                  "method": "cuiban",
+                  "title": "催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "quxiaocuiban",
+                  "title": "取消催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "xiangqing",
+                  "title": "详情",
+                  "switch": "1"
+              }
+          ],
+          "tags": [
+              {
+                  "tag": "du",
+                  "switch": "off"
+              },
+              {
+                  "tag": "delay",
+                  "switch": "off"
+              },
+              {
+                  "tag": "end",
+                  "switch": "off"
+              },
+              {
+                  "tag": "du_over",
+                  "switch": "off"
+              },
+              {
+                  "tag": "new",
+                  "switch": "on"
+              }
+          ],
+          "children": []
+      },
+      {
+          "sid": "405332",
+          "taskNo": "联第20050044",
+          "taskName": "1.7",
+          "outlineLevel": 1,
+          "taskTarget": "7号子任务",
+          "pEndTime": "2020-03-31",
+          "aStartTime": "2020-03-16",
+          "overPercent": 0,
+          "rwPropLevel": "",
+          "rwPropDegree": "",
+          "rwPropComplete": "执行中",
+          "rwPropImportance": "",
+          "rwPropPriority": "",
+          "rwPropDifficulty": "",
+          "status": "执行中",
+          "rwPropType": "重点任务",
+          "chubanLeader": "丁立群",
+          "mainAdviser": "占国栋",
+          "mainDept": "一局一处",
+          "assistPerson": "",
+          "assistDept": "",
+          "id": "44",
+          "outLineLevel": 1,
+          "intField1": "一局一处",
+          "actions": [
+              {
+                  "method": "guanzhu",
+                  "title": "关注",
+                  "switch": "1"
+              },
+              {
+                  "method": "quxiaoguanzhu",
+                  "title": "取消关注",
+                  "switch": "0"
+              },
+              {
+                  "method": "cuiban",
+                  "title": "催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "quxiaocuiban",
+                  "title": "取消催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "xiangqing",
+                  "title": "详情",
+                  "switch": "1"
+              }
+          ],
+          "tags": [
+              {
+                  "tag": "du",
+                  "switch": "off"
+              },
+              {
+                  "tag": "delay",
+                  "switch": "off"
+              },
+              {
+                  "tag": "end",
+                  "switch": "off"
+              },
+              {
+                  "tag": "du_over",
+                  "switch": "off"
+              },
+              {
+                  "tag": "new",
+                  "switch": "on"
+              }
+          ],
+          "children": []
+      },
+      {
+          "sid": "405335",
+          "taskNo": "联第20050045",
+          "taskName": "1.8",
+          "outlineLevel": 1,
+          "taskTarget": "8号子任务",
+          "pEndTime": "2020-03-31",
+          "aStartTime": "2020-03-16",
+          "overPercent": 0,
+          "rwPropLevel": "",
+          "rwPropDegree": "",
+          "rwPropComplete": "执行中",
+          "rwPropImportance": "",
+          "rwPropPriority": "",
+          "rwPropDifficulty": "",
+          "status": "执行中",
+          "rwPropType": "重点任务",
+          "chubanLeader": "丁立群",
+          "mainAdviser": "占国栋",
+          "mainDept": "一局一处",
+          "assistPerson": "",
+          "assistDept": "",
+          "id": "45",
+          "outLineLevel": 1,
+          "intField1": "一局一处",
+          "actions": [
+              {
+                  "method": "guanzhu",
+                  "title": "关注",
+                  "switch": "1"
+              },
+              {
+                  "method": "quxiaoguanzhu",
+                  "title": "取消关注",
+                  "switch": "0"
+              },
+              {
+                  "method": "cuiban",
+                  "title": "催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "quxiaocuiban",
+                  "title": "取消催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "xiangqing",
+                  "title": "详情",
+                  "switch": "1"
+              }
+          ],
+          "tags": [
+              {
+                  "tag": "du",
+                  "switch": "off"
+              },
+              {
+                  "tag": "delay",
+                  "switch": "off"
+              },
+              {
+                  "tag": "end",
+                  "switch": "off"
+              },
+              {
+                  "tag": "du_over",
+                  "switch": "off"
+              },
+              {
+                  "tag": "new",
+                  "switch": "on"
+              }
+          ],
+          "children": []
+      },
+      {
+          "sid": "405338",
+          "taskNo": "联第20050046",
+          "taskName": "1.9",
+          "outlineLevel": 1,
+          "taskTarget": "9号子任务",
+          "pEndTime": "2020-03-31",
+          "aStartTime": "2020-03-16",
+          "overPercent": 0,
+          "rwPropLevel": "",
+          "rwPropDegree": "",
+          "rwPropComplete": "执行中",
+          "rwPropImportance": "",
+          "rwPropPriority": "",
+          "rwPropDifficulty": "",
+          "status": "执行中",
+          "rwPropType": "重点任务",
+          "chubanLeader": "丁立群",
+          "mainAdviser": "占国栋",
+          "mainDept": "一局一处",
+          "assistPerson": "",
+          "assistDept": "",
+          "id": "46",
+          "outLineLevel": 1,
+          "intField1": "一局一处",
+          "actions": [
+              {
+                  "method": "guanzhu",
+                  "title": "关注",
+                  "switch": "1"
+              },
+              {
+                  "method": "quxiaoguanzhu",
+                  "title": "取消关注",
+                  "switch": "0"
+              },
+              {
+                  "method": "cuiban",
+                  "title": "催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "quxiaocuiban",
+                  "title": "取消催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "xiangqing",
+                  "title": "详情",
+                  "switch": "1"
+              }
+          ],
+          "tags": [
+              {
+                  "tag": "du",
+                  "switch": "off"
+              },
+              {
+                  "tag": "delay",
+                  "switch": "off"
+              },
+              {
+                  "tag": "end",
+                  "switch": "off"
+              },
+              {
+                  "tag": "du_over",
+                  "switch": "off"
+              },
+              {
+                  "tag": "new",
+                  "switch": "on"
+              }
+          ],
+          "children": []
+      },
+      {
+          "sid": "405341",
+          "taskNo": "联第20050047",
+          "taskName": "1.10",
+          "outlineLevel": 1,
+          "taskTarget": "10号子任务",
+          "pEndTime": "2020-03-31",
+          "aStartTime": "2020-03-16",
+          "overPercent": 0,
+          "rwPropLevel": "",
+          "rwPropDegree": "",
+          "rwPropComplete": "执行中",
+          "rwPropImportance": "",
+          "rwPropPriority": "",
+          "rwPropDifficulty": "",
+          "status": "执行中",
+          "rwPropType": "重点任务",
+          "chubanLeader": "丁立群",
+          "mainAdviser": "占国栋",
+          "mainDept": "一局一处",
+          "assistPerson": "",
+          "assistDept": "",
+          "id": "47",
+          "outLineLevel": 1,
+          "intField1": "一局一处",
+          "actions": [
+              {
+                  "method": "guanzhu",
+                  "title": "关注",
+                  "switch": "1"
+              },
+              {
+                  "method": "quxiaoguanzhu",
+                  "title": "取消关注",
+                  "switch": "0"
+              },
+              {
+                  "method": "cuiban",
+                  "title": "催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "quxiaocuiban",
+                  "title": "取消催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "xiangqing",
+                  "title": "详情",
+                  "switch": "1"
+              }
+          ],
+          "tags": [
+              {
+                  "tag": "du",
+                  "switch": "off"
+              },
+              {
+                  "tag": "delay",
+                  "switch": "off"
+              },
+              {
+                  "tag": "end",
+                  "switch": "off"
+              },
+              {
+                  "tag": "du_over",
+                  "switch": "off"
+              },
+              {
+                  "tag": "new",
+                  "switch": "on"
+              }
+          ],
+          "children": []
+      },
+      {
+          "sid": "405344",
+          "taskNo": "联第20050048",
+          "taskName": "1.11",
+          "outlineLevel": 1,
+          "taskTarget": "11号子任务",
+          "pEndTime": "2020-03-31",
+          "aStartTime": "2020-03-16",
+          "overPercent": 0,
+          "rwPropLevel": "",
+          "rwPropDegree": "",
+          "rwPropComplete": "执行中",
+          "rwPropImportance": "",
+          "rwPropPriority": "",
+          "rwPropDifficulty": "",
+          "status": "执行中",
+          "rwPropType": "重点任务",
+          "chubanLeader": "丁立群",
+          "mainAdviser": "占国栋",
+          "mainDept": "一局一处",
+          "assistPerson": "",
+          "assistDept": "",
+          "id": "48",
+          "outLineLevel": 1,
+          "intField1": "一局一处",
+          "actions": [
+              {
+                  "method": "guanzhu",
+                  "title": "关注",
+                  "switch": "1"
+              },
+              {
+                  "method": "quxiaoguanzhu",
+                  "title": "取消关注",
+                  "switch": "0"
+              },
+              {
+                  "method": "cuiban",
+                  "title": "催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "quxiaocuiban",
+                  "title": "取消催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "xiangqing",
+                  "title": "详情",
+                  "switch": "1"
+              }
+          ],
+          "tags": [
+              {
+                  "tag": "du",
+                  "switch": "off"
+              },
+              {
+                  "tag": "delay",
+                  "switch": "off"
+              },
+              {
+                  "tag": "end",
+                  "switch": "off"
+              },
+              {
+                  "tag": "du_over",
+                  "switch": "off"
+              },
+              {
+                  "tag": "new",
+                  "switch": "on"
+              }
+          ],
+          "children": []
+      },
+      {
+          "sid": "405347",
+          "taskNo": "联第20050049",
+          "taskName": "1",
+          "outlineLevel": 1,
+          "taskTarget": "1号任务",
+          "pEndTime": "2020-03-31",
+          "aStartTime": "2020-03-16",
+          "overPercent": 0,
+          "rwPropLevel": "",
+          "rwPropDegree": "",
+          "rwPropComplete": "执行中",
+          "rwPropImportance": "",
+          "rwPropPriority": "",
+          "rwPropDifficulty": "",
+          "status": "执行中",
+          "rwPropType": "重点任务",
+          "chubanLeader": "丁立群",
+          "mainAdviser": "占国栋",
+          "mainDept": "一局一处",
+          "assistPerson": "",
+          "assistDept": "",
+          "id": "49",
+          "outLineLevel": 1,
+          "intField1": "一局一处",
+          "actions": [
+              {
+                  "method": "guanzhu",
+                  "title": "关注",
+                  "switch": "1"
+              },
+              {
+                  "method": "quxiaoguanzhu",
+                  "title": "取消关注",
+                  "switch": "0"
+              },
+              {
+                  "method": "cuiban",
+                  "title": "催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "quxiaocuiban",
+                  "title": "取消催办",
+                  "switch": "0"
+              },
+              {
+                  "method": "xiangqing",
+                  "title": "详情",
+                  "switch": "1"
+              }
+          ],
+          "tags": [
+              {
+                  "tag": "du",
+                  "switch": "off"
+              },
+              {
+                  "tag": "delay",
+                  "switch": "off"
+              },
+              {
+                  "tag": "end",
+                  "switch": "off"
+              },
+              {
+                  "tag": "du_over",
+                  "switch": "off"
+              },
+              {
+                  "tag": "new",
+                  "switch": "on"
+              }
+          ],
+          "children": []
+      }
+  ],
+  "tableColumn": [
+      {
+          "field": "tags",
+          "title": "标记"
+      },
+      {
+          "field": "id",
+          "title": "编号"
+      },
+      {
+          "field": "taskName",
+          "title": "任务名称"
+      },
+      {
+          "field": "taskTarget",
+          "title": "节点事项"
+      },
+      {
+          "field": "chubanLeader",
+          "title": "处办领导"
+      },
+      {
+          "field": "assistPerson",
+          "title": "责任人"
+      },
+      {
+          "field": "assistDept",
+          "title": "责任单位"
+      },
+      {
+          "field": "status",
+          "title": "任务状态"
+      },
+      {
+          "field": "actions",
+          "title": "操作"
+      }
+  ]
+}

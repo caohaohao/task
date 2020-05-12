@@ -1,20 +1,29 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/home">Home</router-link> |
-      <router-link to="/about">任务</router-link>
-    </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
-
+<script>
+export default {
+  data () {
+    return {
+      buildBtn: true
+    }
+  }
+}
+</script>
 <style lang="scss">
+html, body{
+  height:100%;
+  overflow: hidden;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  padding:20px 0px 0px 20px;
 }
 
 #nav {

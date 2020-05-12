@@ -1,9 +1,88 @@
 {
+  "toolBar": {
+    "totalResult":100,
+    "maxZindex": 6,
+    "taskSource": [
+      {
+        "label": "军委",
+        "value": "1"
+      },
+      {
+        "label": "连参",
+        "value": "2"
+      },
+      {
+        "label": "重点大队",
+        "value": "3"
+      }
+    ],
+    "taskType": [
+      {
+        "label": "大队重点工作",
+        "options": [
+          {
+            "label": "大队年度工作计划",
+            "value": "11"
+          },
+          {
+            "label": "专项任务",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "label": "临时任务",
+        "options": [
+          {
+            "label": "上级下达",
+            "value": "21"
+          },
+          {
+            "label": "大队领导指示",
+            "value": "22"
+          },
+          {
+            "label": "一般性工作",
+            "value": "23"
+          }
+        ]
+      },
+      {
+        "label": "室办重点工作",
+        "options": [
+          {
+            "label": "室办重点工作",
+            "value": "31"
+          }
+        ]
+      }
+    ]
+  },
   "tableColumn": [
-    { "field": "name", "title": "名称" },
-    { "field": "size", "title": "大小" },
-    { "field": "type", "title": "类型" },
-    { "field": "date", "title": "时间" }
+    {
+      "field": "name",
+      "title": "名称"
+    },
+    {
+      "field": "tags",
+      "title": "标记"
+    },
+    {
+      "field": "size",
+      "title": "大小"
+    },
+    {
+      "field": "type",
+      "title": "类型"
+    },
+    {
+      "field": "date",
+      "title": "时间"
+    },
+    {
+      "field": "actions",
+      "title": "操作"
+    }
   ],
   "children": [
     {
@@ -13,8 +92,24 @@
       "size": "53k",
       "type": "",
       "date": "2019-10-22",
-      "childCols": [],
-      "childData": [],
+      "actions": [
+        {
+          "methods": "guanzhu",
+          "title": "关注",
+          "switch": "0"
+        },
+        {
+          "methods": "cuiban",
+          "title": "催办",
+          "switch": "1"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "du",
+          "switch": "on"
+        }
+      ],
       "children": [
         {
           "id": "11000",
@@ -23,8 +118,28 @@
           "size": "11k",
           "type": "avi",
           "date": "2019-05-21",
-          "childCols": [],
-          "childData": [],
+          "actions": [
+            {
+              "methods": "guanzhu",
+              "title": "关注",
+              "switch": "0"
+            },
+            {
+              "methods": "guanzhu",
+              "title": "催办",
+              "switch": "1"
+            }
+          ],
+          "tags": [
+            {
+              "tag": "du",
+              "switch": "off"
+            },
+            {
+              "tag": "xin",
+              "switch": "on"
+            }
+          ],
           "children": []
         },
         {
@@ -34,8 +149,23 @@
           "size": "22k",
           "type": "",
           "date": "2019-08-16",
-          "childCols": [],
-          "childData": [],
+          "actions": [
+            {
+              "methods": "guanzhu",
+              "title": "关注",
+              "switch": "0"
+            }
+          ],
+          "tags": [
+            {
+              "tag": "du",
+              "switch": "on"
+            },
+            {
+              "tag": "xin",
+              "switch": "on"
+            }
+          ],
           "children": [
             {
               "id": "12100",
@@ -44,8 +174,19 @@
               "size": "60k",
               "type": "",
               "date": "2019-08-20",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": [
                 {
                   "id": "12110",
@@ -54,8 +195,19 @@
                   "size": "100k",
                   "type": "html",
                   "date": "2019-05-19",
-                  "childCols": [],
-                  "childData": [],
+                  "actions": [
+                    {
+                      "methods": "guanzhu",
+                      "title": "关注",
+                      "switch": "0"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "tag": "du",
+                      "switch": "on"
+                    }
+                  ],
                   "children": []
                 }
               ]
@@ -67,8 +219,19 @@
               "size": "80k",
               "type": "avi",
               "date": "2019-04-18",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": []
             },
             {
@@ -78,8 +241,19 @@
               "size": "",
               "type": "",
               "date": "2019-06-17",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": [
                 {
                   "id": "123100",
@@ -88,8 +262,19 @@
                   "size": "105k",
                   "type": "avi",
                   "date": "2019-05-16",
-                  "childCols": [],
-                  "childData": [],
+                  "actions": [
+                    {
+                      "methods": "guanzhu",
+                      "title": "关注",
+                      "switch": "0"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "tag": "du",
+                      "switch": "on"
+                    }
+                  ],
                   "children": []
                 },
                 {
@@ -99,8 +284,19 @@
                   "size": "105k",
                   "type": "avi",
                   "date": "2019-02-20",
-                  "childCols": [],
-                  "childData": [],
+                  "actions": [
+                    {
+                      "methods": "guanzhu",
+                      "title": "关注",
+                      "switch": "0"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "tag": "du",
+                      "switch": "on"
+                    }
+                  ],
                   "children": []
                 },
                 {
@@ -110,8 +306,19 @@
                   "size": "18k",
                   "type": "txt",
                   "date": "2019-04-21",
-                  "childCols": [],
-                  "childData": [],
+                  "actions": [
+                    {
+                      "methods": "guanzhu",
+                      "title": "关注",
+                      "switch": "0"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "tag": "du",
+                      "switch": "on"
+                    }
+                  ],
                   "children": []
                 }
               ]
@@ -123,8 +330,19 @@
               "size": "860k",
               "type": "mp4",
               "date": "2019-01-27",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": []
             },
             {
@@ -134,8 +352,19 @@
               "size": "660k",
               "type": "avi",
               "date": "2019-09-12",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": []
             },
             {
@@ -145,8 +374,19 @@
               "size": "320k",
               "type": "avi",
               "date": "2019-07-29",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": []
             }
           ]
@@ -160,8 +400,19 @@
       "size": "66k",
       "type": "png",
       "date": "2019-08-23",
-      "childCols": [],
-      "childData": [],
+      "actions": [
+        {
+          "methods": "guanzhu",
+          "title": "关注",
+          "switch": "0"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "du",
+          "switch": "on"
+        }
+      ],
       "children": []
     },
     {
@@ -171,8 +422,19 @@
       "size": "3k",
       "type": "",
       "date": "2019-05-14",
-      "childCols": [],
-      "childData": [],
+      "actions": [
+        {
+          "methods": "guanzhu",
+          "title": "关注",
+          "switch": "0"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "du",
+          "switch": "on"
+        }
+      ],
       "children": [
         {
           "id": "31000",
@@ -181,8 +443,19 @@
           "size": "9k",
           "type": "",
           "date": "2019-07-24",
-          "childCols": [],
-          "childData": [],
+          "actions": [
+            {
+              "methods": "guanzhu",
+              "title": "关注",
+              "switch": "0"
+            }
+          ],
+          "tags": [
+            {
+              "tag": "du",
+              "switch": "on"
+            }
+          ],
           "children": [
             {
               "id": "31100",
@@ -191,8 +464,19 @@
               "size": "40k",
               "type": "js",
               "date": "2019-05-27",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": []
             },
             {
@@ -202,8 +486,19 @@
               "size": "224k",
               "type": "java",
               "date": "2019-10-25",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": []
             }
           ]
@@ -215,8 +510,19 @@
           "size": "33k",
           "type": "",
           "date": "2019-05-25",
-          "childCols": [],
-          "childData": [],
+          "actions": [
+            {
+              "methods": "guanzhu",
+              "title": "关注",
+              "switch": "0"
+            }
+          ],
+          "tags": [
+            {
+              "tag": "du",
+              "switch": "on"
+            }
+          ],
           "children": [
             {
               "id": "32100",
@@ -225,8 +531,19 @@
               "size": "35k",
               "type": "mp4",
               "date": "2019-05-28",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": []
             },
             {
@@ -236,8 +553,19 @@
               "size": "33k",
               "type": "",
               "date": "2019-02-29",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": [
                 {
                   "id": "32210",
@@ -246,8 +574,19 @@
                   "size": "75k",
                   "type": "pdf",
                   "date": "2019-12-13",
-                  "childCols": [],
-                  "childData": [],
+                  "actions": [
+                    {
+                      "methods": "guanzhu",
+                      "title": "关注",
+                      "switch": "0"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "tag": "du",
+                      "switch": "on"
+                    }
+                  ],
                   "children": []
                 },
                 {
@@ -257,8 +596,19 @@
                   "size": "33k",
                   "type": "",
                   "date": "2019-08-12",
-                  "childCols": [],
-                  "childData": [],
+                  "actions": [
+                    {
+                      "methods": "guanzhu",
+                      "title": "关注",
+                      "switch": "0"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "tag": "du",
+                      "switch": "on"
+                    }
+                  ],
                   "children": [
                     {
                       "id": "32221",
@@ -267,8 +617,19 @@
                       "size": "85k",
                       "type": "pdf",
                       "date": "2019-12-30",
-                      "childCols": [],
-                      "childData": [],
+                      "actions": [
+                        {
+                          "methods": "guanzhu",
+                          "title": "关注",
+                          "switch": "0"
+                        }
+                      ],
+                      "tags": [
+                        {
+                          "tag": "du",
+                          "switch": "on"
+                        }
+                      ],
                       "children": []
                     },
                     {
@@ -278,8 +639,19 @@
                       "size": "998k",
                       "type": "ppt",
                       "date": "2019-10-30",
-                      "childCols": [],
-                      "childData": [],
+                      "actions": [
+                        {
+                          "methods": "guanzhu",
+                          "title": "关注",
+                          "switch": "0"
+                        }
+                      ],
+                      "tags": [
+                        {
+                          "tag": "du",
+                          "switch": "on"
+                        }
+                      ],
                       "children": []
                     },
                     {
@@ -289,8 +661,19 @@
                       "size": "95k",
                       "type": "xlsx",
                       "date": "2019-11-01",
-                      "childCols": [],
-                      "childData": [],
+                      "actions": [
+                        {
+                          "methods": "guanzhu",
+                          "title": "关注",
+                          "switch": "0"
+                        }
+                      ],
+                      "tags": [
+                        {
+                          "tag": "du",
+                          "switch": "on"
+                        }
+                      ],
                       "children": []
                     }
                   ]
@@ -304,8 +687,19 @@
               "size": "678k",
               "type": "",
               "date": "2019-01-10",
-              "childCols": [],
-              "childData": [],
+              "actions": [
+                {
+                  "methods": "guanzhu",
+                  "title": "关注",
+                  "switch": "0"
+                }
+              ],
+              "tags": [
+                {
+                  "tag": "du",
+                  "switch": "on"
+                }
+              ],
               "children": [
                 {
                   "id": "32310",
@@ -314,8 +708,19 @@
                   "size": "75k",
                   "type": "mp4",
                   "date": "2019-11-09",
-                  "childCols": [],
-                  "childData": [],
+                  "actions": [
+                    {
+                      "methods": "guanzhu",
+                      "title": "关注",
+                      "switch": "0"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "tag": "du",
+                      "switch": "on"
+                    }
+                  ],
                   "children": []
                 },
                 {
@@ -325,8 +730,19 @@
                   "size": "88k",
                   "type": "",
                   "date": "2019-08-08",
-                  "childCols": [],
-                  "childData": [],
+                  "actions": [
+                    {
+                      "methods": "guanzhu",
+                      "title": "关注",
+                      "switch": "0"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "tag": "du",
+                      "switch": "on"
+                    }
+                  ],
                   "children": [
                     {
                       "id": "32321",
@@ -335,8 +751,19 @@
                       "size": "5k",
                       "type": "mp3",
                       "date": "2019-03-07",
-                      "childCols": [],
-                      "childData": [],
+                      "actions": [
+                        {
+                          "methods": "guanzhu",
+                          "title": "关注",
+                          "switch": "0"
+                        }
+                      ],
+                      "tags": [
+                        {
+                          "tag": "du",
+                          "switch": "on"
+                        }
+                      ],
                       "children": []
                     },
                     {
@@ -346,8 +773,19 @@
                       "size": "5k",
                       "type": "avi",
                       "date": "2019-09-09",
-                      "childCols": [],
-                      "childData": [],
+                      "actions": [
+                        {
+                          "methods": "guanzhu",
+                          "title": "关注",
+                          "switch": "0"
+                        }
+                      ],
+                      "tags": [
+                        {
+                          "tag": "du",
+                          "switch": "on"
+                        }
+                      ],
                       "children": []
                     },
                     {
@@ -357,8 +795,19 @@
                       "size": "576k",
                       "type": "mp3",
                       "date": "2019-09-04",
-                      "childCols": [],
-                      "childData": [],
+                      "actions": [
+                        {
+                          "methods": "guanzhu",
+                          "title": "关注",
+                          "switch": "0"
+                        }
+                      ],
+                      "tags": [
+                        {
+                          "tag": "du",
+                          "switch": "on"
+                        }
+                      ],
                       "children": []
                     }
                   ]
@@ -374,8 +823,19 @@
           "size": "95k",
           "type": "txt",
           "date": "2019-01-14",
-          "childCols": [],
-          "childData": [],
+          "actions": [
+            {
+              "methods": "guanzhu",
+              "title": "关注",
+              "switch": "0"
+            }
+          ],
+          "tags": [
+            {
+              "tag": "du",
+              "switch": "on"
+            }
+          ],
           "children": []
         },
         {
@@ -385,8 +845,19 @@
           "size": "786k",
           "type": "avi",
           "date": "2019-01-17",
-          "childCols": [],
-          "childData": [],
+          "actions": [
+            {
+              "methods": "guanzhu",
+              "title": "关注",
+              "switch": "0"
+            }
+          ],
+          "tags": [
+            {
+              "tag": "du",
+              "switch": "on"
+            }
+          ],
           "children": []
         },
         {
@@ -396,8 +867,19 @@
           "size": "286k",
           "type": "mp4",
           "date": "2019-02-19",
-          "childCols": [],
-          "childData": [],
+          "actions": [
+            {
+              "methods": "guanzhu",
+              "title": "关注",
+              "switch": "0"
+            }
+          ],
+          "tags": [
+            {
+              "tag": "du",
+              "switch": "on"
+            }
+          ],
           "children": []
         },
         {
@@ -407,8 +889,19 @@
           "size": "870k",
           "type": "pdf",
           "date": "2019-12-27",
-          "childCols": [],
-          "childData": [],
+          "actions": [
+            {
+              "methods": "guanzhu",
+              "title": "关注",
+              "switch": "0"
+            }
+          ],
+          "tags": [
+            {
+              "tag": "du",
+              "switch": "on"
+            }
+          ],
           "children": []
         }
       ]
@@ -420,8 +913,19 @@
       "size": "26k",
       "type": "mp4",
       "date": "2019-03-04",
-      "childCols": [],
-      "childData": [],
+      "actions": [
+        {
+          "methods": "guanzhu",
+          "title": "关注",
+          "switch": "0"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "du",
+          "switch": "on"
+        }
+      ],
       "children": [
         {
           "id": "41000",
@@ -430,8 +934,19 @@
           "size": "9k",
           "type": "mp4",
           "date": "2019-02-03",
-          "childCols": [],
-          "childData": [],
+          "actions": [
+            {
+              "methods": "guanzhu",
+              "title": "关注",
+              "switch": "0"
+            }
+          ],
+          "tags": [
+            {
+              "tag": "du",
+              "switch": "on"
+            }
+          ],
           "children": []
         }
       ]
@@ -443,8 +958,19 @@
       "size": "498k",
       "type": "avi",
       "date": "2019-12-02",
-      "childCols": [],
-      "childData": [],
+      "actions": [
+        {
+          "methods": "guanzhu",
+          "title": "关注",
+          "switch": "0"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "du",
+          "switch": "on"
+        }
+      ],
       "children": []
     }
   ]
